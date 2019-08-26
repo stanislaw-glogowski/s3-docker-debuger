@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  main-api:
+    build: ./
+    command: ["npm", "start"]
+    env_file:
+      - ./main.env
+
+
